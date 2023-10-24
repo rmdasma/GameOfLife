@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="inner">
+    <div class="content">
+        <h1>Conway's Game Of Life</h1>
+        <canvas id="canvas" width="800" height="500"></canvas>
+
+        <h3>Control</h3>
+        <button id="startStop">Start</button>
+        <button id="reset">Reset</button>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
